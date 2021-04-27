@@ -20,17 +20,11 @@ Next you need bash. I personally use Git Bash as it comes with Git preinstalled.
 
 Install [Git](https://git-scm.com/) and make sure to include the Git Bash in the installation process.
 
-## Install Starship
+## Install a Font
 
 Go to [Starship's installation guide](https://starship.rs/guide/) and follow the steps for installing a font. I recommend `FiraCode Nerd Font Mono`.
 
 <img src="./media/chrome_Grt4RSXjZC.png" />
-
-Next reopen your Windows Terminal. It should open straight to Git Bash.
-
-Run the shell command the guide gives you to install Starship, but add `-- --bin-dir ~/.config/starship` to the end of the command to install it in `C:/Users/Username/.config/starship`.
-
-<img src="./media/chrome_tTevteWckd.png" />
 
 ## Configure Windows Terminal
 
@@ -103,6 +97,14 @@ Set `schemes` to the following.
 Save the file. If you get a warning or error it's alright. Just make sure the data entered doesn't get changed.
 
 Download the [Windows Terminal icon](https://raw.githubusercontent.com/microsoft/terminal/master/res/terminal.ico) and place it in `C:/Users/Username/.config` named `terminal.ico`.
+
+## Install Starship
+
+Next reopen your Windows Terminal. It should open straight to Git Bash.
+
+Run the shell command the guide gives you to install Starship, but add `-- --bin-dir ~/.config/starship` to the end of the command to install it in `C:/Users/Username/.config/starship`.
+
+<img src="./media/chrome_tTevteWckd.png" />
 
 ## Installing ZSH (Optional)
 
