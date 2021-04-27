@@ -142,14 +142,20 @@ eval "$(starship init zsh)"
 
 ## Final Touches
 
-> Download the [Windows Terminal icon](https://raw.githubusercontent.com/microsoft/terminal/master/res/terminal.ico) and place it in `C:/Users/Username/.config` named `terminal.ico`.
+Download the [Windows Terminal icon](https://raw.githubusercontent.com/microsoft/terminal/master/res/terminal.ico) and place it in `C:/Users/Username/.config` named `terminal.ico`.
 
-> Configure Starship with `C:/Users/Username/.config/starship.toml`.
+---
 
-> Install the `zsh-autosuggestions` plugin (and the `git` plugin if you don't have it) and add it to your `.zshrc`.
->
-> ```zsh
-> plugins=(git zsh-autosuggestions)
-> ```
+Configure Starship with `C:/Users/Username/.config/starship.toml`.
 
-> Configure your VSCode to run Git Bash, use the font you installed, and use UTF-8 encoding.
+---
+
+Install the `zsh-autosuggestions` plugin (and the `git` plugin if you don't have it) and add it to your `.zshrc`.
+
+```zsh
+plugins=(git zsh-autosuggestions)
+```
+
+---
+
+Configure your VSCode to run Git Bash, use the font you installed, and use UTF-8 encoding.
