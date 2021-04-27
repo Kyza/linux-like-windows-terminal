@@ -100,7 +100,9 @@ Download the [Windows Terminal icon](https://raw.githubusercontent.com/microsoft
 
 ## Install Starship
 
-Next reopen your Windows Terminal. It should open straight to Git Bash.
+Reopen [Starship's installation guide](https://starship.rs/guide/) if you closed it.
+
+Reopen your Windows Terminal. It should open straight to Git Bash.
 
 Run the shell command the guide gives you to install Starship, but add `-- --bin-dir ~/.config/starship` to the end of the command to install it in `C:/Users/Username/.config/starship`.
 
