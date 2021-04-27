@@ -2,7 +2,7 @@
 
 Jealous of Linux users?
 
-Want an awesome looking CLI on Windows?
+Want an awesome-looking CLI on Windows?
 
 Follow this guide to get a final result like this.
 
