@@ -156,4 +156,4 @@ plugins=(git zsh-autosuggestions)
 
 ---
 
-Configure your VSCode to run Git Bash, use the font you installed, and use UTF-8 encoding.
+Configure your VSCode to run Git Bash by default instead of Powershell, use the font you installed, and use UTF-8 encoding.
