@@ -102,6 +102,8 @@ Set `schemes` to the following.
 
 Save the file. If you get a warning or error it's alright. Just make sure the data entered doesn't get changed.
 
+Download the [Windows Terminal icon](https://raw.githubusercontent.com/microsoft/terminal/master/res/terminal.ico) and place it in `C:/Users/Username/.config` named `terminal.ico`.
+
 ## Installing ZSH (Optional)
 
 Go to [Oh My Zsh](https://ohmyz.sh/#install) and run the command provided.
@@ -140,11 +142,7 @@ If https://github.com/starship/starship/issues/2449 has been fixed by the time y
 eval "$(starship init zsh)"
 ```
 
-## Final Touches
-
-Download the [Windows Terminal icon](https://raw.githubusercontent.com/microsoft/terminal/master/res/terminal.ico) and place it in `C:/Users/Username/.config` named `terminal.ico`.
-
----
+## Personal Final Touches
 
 Configure Starship with `C:/Users/Username/.config/starship.toml`.
 
