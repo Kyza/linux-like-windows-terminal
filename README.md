@@ -148,16 +148,4 @@ eval "$(starship init zsh)"
 
 ## Personal Final Touches
 
-Configure Starship with `C:/Users/Username/.config/starship.toml`.
-
----
-
-Install the `zsh-autosuggestions` plugin (and the `git` plugin if you don't have it) and add it to your `.zshrc`.
-
-```zsh
-plugins=(git zsh-autosuggestions)
-```
-
----
-
 Configure your VSCode to run Git Bash by default instead of Powershell, use the font you installed, and use UTF-8 encoding.
