@@ -1,0 +1,1 @@
+# windows-terminal-bash-starship
