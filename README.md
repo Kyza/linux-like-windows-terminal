@@ -112,9 +112,7 @@ Run the shell command the guide gives you to install Starship, but add `-- --bin
 
 ## Installing ZSH (Optional)
 
-Go to [Oh My Zsh](https://ohmyz.sh/#install) and run the command provided.
-
-<img src="./media/chrome_C43VbYKEIQ.png" />
+Installing ZSH is the same as on Linux. You can use vanilla ZSH or almost any framework you choose.
 
 ## Adding Starship (and ZSH)
 
