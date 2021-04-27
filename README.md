@@ -112,7 +112,7 @@ Run the shell command the guide gives you to install Starship, but add `-- --bin
 
 ## Installing ZSH (Optional)
 
-Installing ZSH is the same as on Linux. You can use vanilla ZSH or almost any framework you choose.
+Installing ZSH is the same as on Linux. You can use vanilla ZSH or almost any framework you choose, but I recommend [Zsh IMproved FrameWork](https://github.com/zimfw/zimfw).
 
 ## Adding Starship (and ZSH)
 
