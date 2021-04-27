@@ -20,11 +20,13 @@ Next you need bash. I personally use Git Bash as it comes with Git preinstalled.
 
 Install [Git](https://git-scm.com/) and make sure to include the Git Bash in the installation process.
 
-## Install a Font
+## Install a Suitable Font (Required)
 
 Go to [Starship's installation guide](https://starship.rs/guide/) and follow the steps for installing a font. I recommend `FiraCode Nerd Font Mono`.
 
 <img src="./media/chrome_Grt4RSXjZC.png" />
+
+_**This step is not optional.**_
 
 ## Configure Windows Terminal
 
