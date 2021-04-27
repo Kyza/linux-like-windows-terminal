@@ -20,6 +20,18 @@ Next you need bash. I personally use Git Bash as it comes with Git preinstalled.
 
 Install [Git](https://git-scm.com/) and make sure to include the Git Bash in the installation process.
 
+## Install Starship
+
+Go to [Starship's installation guide](https://starship.rs/guide/) and follow the steps for installing a font. I recommend `FiraCode Nerd Font Mono`.
+
+<img src="./media/chrome_Grt4RSXjZC.png" />
+
+Next reopen your Windows Terminal. It should open straight to Git Bash.
+
+Run the shell command the guide gives you to install Starship, but add `-- --bin-dir ~/.config/starship` to the end of the command to install it in `C:/Users/Username/.config/starship`.
+
+<img src="./media/chrome_tTevteWckd.png" />
+
 ## Configure Windows Terminal
 
 In your Windows Terminal, open up the `settings.json`.
@@ -35,6 +47,8 @@ Set `defaultProfile` to the following.
 ```
 
 Add the following profile to `profiles.list`.
+
+Set `fontFace` to the name of the font you installed.
 
 ```json
 {
@@ -88,18 +102,6 @@ Set `schemes` to the following.
 
 Save the file. If you get a warning or error it's alright. Just make sure the data entered doesn't get changed.
 
-## Install Starship
-
-Go to [Starship's installation guide](https://starship.rs/guide/) and follow the steps for installing a font. I recommend `FiraCode Nerd Font Mono`.
-
-<img src="./media/chrome_Grt4RSXjZC.png" />
-
-Next reopen your Windows Terminal. It should open straight to Git Bash.
-
-Run the shell command the guide gives you to install Starship, but add `-- --bin-dir ~/.config/starship` to the end of the command to install it in `C:/Users/Username/.config/starship`.
-
-<img src="./media/chrome_tTevteWckd.png" />
-
 ## Installing ZSH (Optional)
 
 Go to [Oh My Zsh](https://ohmyz.sh/#install) and run the command provided.
@@ -140,12 +142,14 @@ eval "$(starship init zsh)"
 
 ## Final Touches
 
-Download the [Windows Terminal icon](https://raw.githubusercontent.com/microsoft/terminal/master/res/terminal.ico) and place it in `C:/Users/Username/.config` named `terminal.ico`.
+> Download the [Windows Terminal icon](https://raw.githubusercontent.com/microsoft/terminal/master/res/terminal.ico) and place it in `C:/Users/Username/.config` named `terminal.ico`.
 
-Configure Starship with `C:/Users/Username/.config/starship.toml`.
+> Configure Starship with `C:/Users/Username/.config/starship.toml`.
 
-Install the `zsh-autosuggestions` plugin (and the `git` plugin if you don't have it) and add it to your `.zshrc`.
+> Install the `zsh-autosuggestions` plugin (and the `git` plugin if you don't have it) and add it to your `.zshrc`.
+>
+> ```zsh
+> plugins=(git zsh-autosuggestions)
+> ```
 
-```zsh
-plugins=(git zsh-autosuggestions)
-```
+> Configure your VSCode to run Git Bash, use the font you installed, and use UTF-8 encoding.
