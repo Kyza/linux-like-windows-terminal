@@ -141,12 +141,6 @@ fi
 In `C:/Users/Username/.zshrc`, add the following to the end.
 
 ```zsh
-source <(starship init zsh --print-full-init | dos2unix)
-```
-
-If https://github.com/starship/starship/issues/2449 has been fixed by the time you're reading this, add this instead.
-
-```zsh
 eval "$(starship init zsh)"
 ```
 
